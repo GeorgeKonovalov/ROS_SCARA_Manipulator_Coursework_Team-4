@@ -1,0 +1,24 @@
+[0.036s] Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg -- -j32 -l32
+[0.078s] Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg -- -j32 -l32
+[0.080s] Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg
+[0.089s] -- Install configuration: ""
+[0.089s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/launch
+[0.090s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/launch/robot.launch.py
+[0.091s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/urdf
+[0.093s] -- Installing: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/urdf/robot.urdf
+[0.097s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/ament_index/resource_index/package_run_dependencies/rrrrr_finger_pkg
+[0.099s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/ament_index/resource_index/parent_prefix_path/rrrrr_finger_pkg
+[0.099s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/environment/ament_prefix_path.sh
+[0.100s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/environment/path.sh
+[0.102s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/environment/path.dsv
+[0.103s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/local_setup.bash
+[0.103s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/local_setup.sh
+[0.104s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/local_setup.zsh
+[0.105s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/local_setup.dsv
+[0.106s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.dsv
+[0.106s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/ament_index/resource_index/packages/rrrrr_finger_pkg
+[0.107s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/cmake/rrrrr_finger_pkgConfig.cmake
+[0.108s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/cmake/rrrrr_finger_pkgConfig-version.cmake
+[0.110s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.xml
+[0.522s] Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg

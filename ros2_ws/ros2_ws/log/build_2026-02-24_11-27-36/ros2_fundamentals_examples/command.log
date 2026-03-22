@@ -1,0 +1,4 @@
+Invoking command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples -- -j32 -l32
+Invoked command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples -- -j32 -l32
+Invoking command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples
+Invoked command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples

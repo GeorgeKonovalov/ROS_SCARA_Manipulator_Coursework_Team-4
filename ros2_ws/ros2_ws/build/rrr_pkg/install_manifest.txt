@@ -1,0 +1,17 @@
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/launch/robot.launch.py
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/urdf/robot.urdf
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/ament_index/resource_index/package_run_dependencies/rrr_pkg
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/ament_index/resource_index/parent_prefix_path/rrr_pkg
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/environment/ament_prefix_path.sh
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/environment/ament_prefix_path.dsv
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/environment/path.sh
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/environment/path.dsv
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/local_setup.bash
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/local_setup.sh
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/local_setup.zsh
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/local_setup.dsv
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.dsv
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/ament_index/resource_index/packages/rrr_pkg
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/cmake/rrr_pkgConfig.cmake
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/cmake/rrr_pkgConfig-version.cmake
+/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.xml

@@ -1,0 +1,24 @@
+[0.037s] Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_pkg -- -j32 -l32
+[0.077s] Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_pkg -- -j32 -l32
+[0.081s] Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_pkg
+[0.086s] -- Install configuration: ""
+[0.087s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/launch
+[0.089s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/launch/robot.launch.py
+[0.090s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/urdf
+[0.092s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/urdf/robot.urdf
+[0.093s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/ament_index/resource_index/package_run_dependencies/rrrrr_pkg
+[0.094s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/ament_index/resource_index/parent_prefix_path/rrrrr_pkg
+[0.095s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/environment/ament_prefix_path.dsv
+[0.097s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/environment/path.sh
+[0.098s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/environment/path.dsv
+[0.099s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/local_setup.bash
+[0.100s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/local_setup.sh
+[0.101s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/local_setup.zsh
+[0.102s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/local_setup.dsv
+[0.103s] -- Installing: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.dsv
+[0.114s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/ament_index/resource_index/packages/rrrrr_pkg
+[0.114s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/cmake/rrrrr_pkgConfig.cmake
+[0.115s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/cmake/rrrrr_pkgConfig-version.cmake
+[0.116s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.xml
+[0.470s] Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_pkg

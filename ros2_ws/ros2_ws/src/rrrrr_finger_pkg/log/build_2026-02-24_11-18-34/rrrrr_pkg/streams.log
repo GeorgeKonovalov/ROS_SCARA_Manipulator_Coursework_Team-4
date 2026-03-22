@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg/build/rrrrr_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg -DCMAKE_INSTALL_PREFIX=/home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg/install/rrrrr_pkg
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.162s] -- The CXX compiler identification is GNU 11.4.0
+[0.174s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.325s] -- Detecting C compile features
+[0.326s] -- Detecting C compile features - done
+[0.334s] -- Detecting CXX compiler ABI info
+[0.476s] -- Detecting CXX compiler ABI info - done
+[0.484s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.484s] -- Detecting CXX compile features
+[0.485s] -- Detecting CXX compile features - done
+[0.503s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.617s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.831s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.878s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.878s]   ament_package_xml() package name 'rrrrr_pkg' in '/package.xml' does not
+[0.878s]   match current PROJECT_NAME 'rrrrr_finger_pkg'.  You must call project()
+[0.878s]   with the same package name before.
+[0.878s] Call Stack (most recent call first):
+[0.878s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.878s]   CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)
+[0.878s] 
+[0.878s] [0m
+[0.879s] -- Configuring incomplete, errors occurred!
+[0.879s] See also "/home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg/build/rrrrr_pkg/CMakeFiles/CMakeOutput.log".
+[0.886s] Invoked command in '/home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg/build/rrrrr_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg -DCMAKE_INSTALL_PREFIX=/home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg/install/rrrrr_pkg

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: rrrrr_finger
+    relative_path: urdf/robot.urdf
+  srdf:
+    relative_path: config/simple_robot.srdf
+  package_settings:
+    author_name: Andrey Sachkov
+    author_email: a.sachkov1-24@student.lboro.ac.uk
+    generated_timestamp: 1773139270
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

@@ -1,0 +1,49 @@
+[0.038s] Invoking command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples -- -j32 -l32
+[0.113s] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[0.257s] running egg_info
+[0.257s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[0.260s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[0.264s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[0.268s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.270s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.288s] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[0.296s] Invoked command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples -- -j32 -l32
+[0.302s] Invoking command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples
+[0.308s] -- Install configuration: ""
+[0.309s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples
+[0.310s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/examplePublisher.py
+[0.310s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/__init__.py
+[0.311s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/exampleSubscriber.py
+[0.312s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/include
+[0.314s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/include/ros2_fundamentals_examples
+[0.315s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.sh
+[0.316s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.dsv
+[0.316s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples-0.0.0-py3.10.egg-info
+[0.318s] -- Installing: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples-0.0.0-py3.10.egg-info/PKG-INFO
+[0.323s] -- Installing: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.328s] -- Installing: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples-0.0.0-py3.10.egg-info/top_level.txt
+[0.333s] -- Installing: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.337s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples
+[0.339s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples/examplePublisher.py
+[0.339s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples/__init__.py
+[0.340s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples/exampleSubscriber.py
+[0.362s] Listing '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/local/lib/python3.10/dist-packages/ros2_fundamentals_examples'...
+[0.365s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/examplePublisher.py
+[0.366s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/exampleSubscriber.py
+[0.367s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/package_run_dependencies/ros2_fundamentals_examples
+[0.368s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/parent_prefix_path/ros2_fundamentals_examples
+[0.368s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.sh
+[0.369s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.dsv
+[0.370s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.sh
+[0.371s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.dsv
+[0.372s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.bash
+[0.372s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.sh
+[0.373s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.zsh
+[0.374s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.dsv
+[0.375s] -- Installing: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv
+[0.379s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/packages/ros2_fundamentals_examples
+[0.380s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.381s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig.cmake
+[0.382s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig-version.cmake
+[0.382s] -- Up-to-date: /home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.xml
+[0.386s] Invoked command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples

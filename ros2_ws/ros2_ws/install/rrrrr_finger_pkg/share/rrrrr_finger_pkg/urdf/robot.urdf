@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<robot name="simple_robot_with_gripper">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.2"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="yellow">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="first_link"/>
+    <origin xyz="0 0 0.025"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="2.0" lower="-2.2" upper="2.2"/>
+  </joint>
+
+  <link name="first_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.5" radius="0.04"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0.25"/>
+      <material name="blue">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint_2" type="revolute">
+    <parent link="first_link"/>
+    <child link="second_link"/>
+    <origin xyz="0 0 0.5" rpy="1.57079633 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="2.0" lower="-2.2" upper="2.2"/>
+  </joint>
+
+  <link name="second_link">
+    <visual>
+      <geometry>
+        <box size="0.5 0.1 0.1"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.25 0 0"/>
+      <material name="green">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint_3" type="revolute">
+    <parent link="second_link"/>
+    <child link="third_link"/>
+    <origin xyz="0.5 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="2.0" lower="-2.2" upper="2.2"/>
+  </joint>
+
+  <link name="third_link">
+    <visual>
+      <geometry>
+        <box size="0.5 0.1 0.1"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.25 0 0"/>
+      <material name="yellow">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint_4" type="revolute">
+    <parent link="third_link"/>
+    <child link="fourth_link"/>
+    <origin xyz="0.5 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="300" velocity="2.0" lower="-1.2" upper="1"/>
+  </joint>
+
+  <link name="fourth_link">
+    <visual>
+      <geometry>
+        <box size="0.15 0.08 0.08"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.075 0 0"/>
+      <material name="yellow">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint_5" type="revolute">
+    <parent link="fourth_link"/>
+    <child link="fifth_link"/>
+    <origin xyz="0.15 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit effort="300" velocity="2.0" lower="-1.2" upper="1"/>
+  </joint>
+
+  <link name="fifth_link">
+    <visual>
+      <geometry>
+        <box size="0.15 0.08 0.08"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0.075 0 0"/>
+      <material name="yellow">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ========================= -->
+  <!-- GRIPPER (2 FINGERS) START -->
+  <!-- ========================= -->
+
+  <!-- Gripper palm/base attached to the end of fifth_link -->
+  <joint name="gripper_mount" type="fixed">
+    <parent link="fifth_link"/>
+    <child link="gripper_base"/>
+    <!-- fifth_link length is 0.15, so end is at x=0.15 -->
+    <origin xyz="0.15 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="gripper_base">
+    <visual>
+      <geometry>
+        <!-- small palm block -->
+        <box size="0.06 0.10 0.04"/>
+      </geometry>
+      <origin xyz="0.03 0 0"/>
+      <material name="grey">
+        <color rgba="0.6 0.6 0.6 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Left finger slides along +Y/-Y direction (opening/closing) -->
+  <joint name="left_finger_joint" type="prismatic">
+    <parent link="gripper_base"/>
+    <child link="left_finger"/>
+    <!-- place joint at front of palm -->
+    <origin xyz="0.06 0 0" rpy="0 0 0"/>
+    <!-- slide along Y -->
+    <axis xyz="0 1 0"/>
+    <!-- 0.0 = closed, 0.03 = open outward -->
+    <limit lower="0.0" upper="0.03" effort="50" velocity="0.2"/>
+  </joint>
+
+  <link name="left_finger">
+    <visual>
+      <geometry>
+        <!-- thin finger -->
+        <box size="0.08 0.02 0.02"/>
+      </geometry>
+      <!-- extend finger forward in +X -->
+      <origin xyz="0.04 0.02 0"/>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Right finger slides opposite direction (negative Y) -->
+  <joint name="right_finger_joint" type="prismatic">
+    <parent link="gripper_base"/>
+    <child link="right_finger"/>
+    <origin xyz="0.06 0 0" rpy="0 0 0"/>
+    <!-- slide along -Y -->
+    <axis xyz="0 -1 0"/>
+    <limit lower="0.0" upper="0.03" effort="50" velocity="0.2"/>
+  </joint>
+
+  <link name="right_finger">
+    <visual>
+      <geometry>
+        <box size="0.08 0.02 0.02"/>
+      </geometry>
+      <origin xyz="0.04 -0.02 0"/>
+      <material name="red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- ======================= -->
+  <!-- GRIPPER (2 FINGERS) END -->
+  <!-- ======================= -->
+
+</robot>

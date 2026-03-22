@@ -1,0 +1,17 @@
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/launch/robot.launch.py
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/urdf/robot.urdf
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/ament_index/resource_index/package_run_dependencies/rrrrr_finger_pkg
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/ament_index/resource_index/parent_prefix_path/rrrrr_finger_pkg
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/environment/ament_prefix_path.sh
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/environment/ament_prefix_path.dsv
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/environment/path.sh
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/environment/path.dsv
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/local_setup.bash
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/local_setup.sh
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/local_setup.zsh
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/local_setup.dsv
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.dsv
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/ament_index/resource_index/packages/rrrrr_finger_pkg
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/cmake/rrrrr_finger_pkgConfig.cmake
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/cmake/rrrrr_finger_pkgConfig-version.cmake
+/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.xml

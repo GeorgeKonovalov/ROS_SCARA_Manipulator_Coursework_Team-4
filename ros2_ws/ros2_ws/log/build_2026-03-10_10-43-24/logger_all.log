@@ -1,0 +1,517 @@
+[0.052s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.052s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76a9fbd5e170>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76a9fbd5dba0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76a9fbd5dba0>>, mixin_verb=('build',))
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.132s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lunet/wj0011/ros2_ws'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_moveit' with type 'ros.ament_cmake' and name 'hello_moveit'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_fundamentals_examples) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_fundamentals_examples' with type 'ros.ament_cmake' and name 'ros2_fundamentals_examples'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrr_pkg) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrr_pkg' with type 'ros.ament_cmake' and name 'rrr_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrrrr_finger' with type 'ros.ament_cmake' and name 'rrrrr_finger'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_finger_pkg) by extension 'ros'
+[0.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrrrr_finger_pkg' with type 'ros.ament_cmake' and name 'rrrrr_finger_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/rrrrr_pkg) by extension 'ros'
+[0.157s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rrrrr_pkg' with type 'ros.ament_cmake' and name 'rrrrr_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_moveit_config) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_robot_moveit_config' with type 'ros.ament_cmake' and name 'simple_robot_moveit_config'
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.189s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/lunet/wj0011/ros2_ws/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 424 installed packages in /opt/ros/humble
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'hello_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunet/wj0011/ros2_ws/build/hello_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunet/wj0011/ros2_ws/install/hello_moveit', 'merge_install': False, 'path': '/home/lunet/wj0011/ros2_ws/src/hello_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ros2_fundamentals_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_fundamentals_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples', 'merge_install': False, 'path': '/home/lunet/wj0011/ros2_ws/src/ros2_fundamentals_examples', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrr_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'rrr_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunet/wj0011/ros2_ws/build/rrr_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunet/wj0011/ros2_ws/install/rrr_pkg', 'merge_install': False, 'path': '/home/lunet/wj0011/ros2_ws/src/rrr_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'rrrrr_finger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger', 'merge_install': False, 'path': '/home/lunet/wj0011/ros2_ws/src/rrrrr_finger', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_finger_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'rrrrr_finger_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg', 'merge_install': False, 'path': '/home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'rrrrr_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'rrrrr_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg', 'merge_install': False, 'path': '/home/lunet/wj0011/ros2_ws/src/rrrrr_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'simple_robot_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config', 'merge_install': False, 'path': '/home/lunet/wj0011/ros2_ws/src/simple_robot_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.229s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.229s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunet/wj0011/ros2_ws/src/rrrrr_finger' with build type 'ament_cmake'
+[0.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunet/wj0011/ros2_ws/src/rrrrr_finger'
+[0.230s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunet/wj0011/ros2_ws/src/hello_moveit' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunet/wj0011/ros2_ws/src/hello_moveit'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunet/wj0011/ros2_ws/src/ros2_fundamentals_examples' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunet/wj0011/ros2_ws/src/ros2_fundamentals_examples'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunet/wj0011/ros2_ws/src/rrr_pkg' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunet/wj0011/ros2_ws/src/rrr_pkg'
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunet/wj0011/ros2_ws/src/rrrrr_finger_pkg'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunet/wj0011/ros2_ws/src/rrrrr_pkg' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunet/wj0011/ros2_ws/src/rrrrr_pkg'
+[0.298s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.298s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_finger -- -j32 -l32
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/hello_moveit': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/hello_moveit -- -j32 -l32
+[0.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples -- -j32 -l32
+[0.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrr_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrr_pkg -- -j32 -l32
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg -- -j32 -l32
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_pkg -- -j32 -l32
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_finger -- -j32 -l32
+[0.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_finger
+[0.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrr_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrr_pkg -- -j32 -l32
+[0.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrr_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrr_pkg
+[0.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg -- -j32 -l32
+[0.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg
+[0.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/rrrrr_pkg -- -j32 -l32
+[0.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_pkg
+[0.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrrrr_finger)
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_finger
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger' for CMake module files
+[0.415s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger' for CMake config files
+[0.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrrrr_finger', 'cmake_prefix_path')
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/hook/cmake_prefix_path.ps1'
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/hook/cmake_prefix_path.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/hook/cmake_prefix_path.sh'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/bin'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/lib/pkgconfig/rrrrr_finger.pc'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/lib/python3.10/site-packages'
+[0.427s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/bin'
+[0.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.dsv'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.sh'
+[0.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.bash'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.zsh'
+[0.438s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/colcon-core/packages/rrrrr_finger)
+[0.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrrrr_finger)
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger' for CMake module files
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger' for CMake config files
+[0.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrrrr_finger', 'cmake_prefix_path')
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/hook/cmake_prefix_path.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/hook/cmake_prefix_path.dsv'
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/hook/cmake_prefix_path.sh'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/bin'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/lib/pkgconfig/rrrrr_finger.pc'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/lib/python3.10/site-packages'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/bin'
+[0.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.ps1'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.dsv'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.sh'
+[0.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.bash'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/rrrrr_finger/package.zsh'
+[0.535s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/rrrrr_finger/share/colcon-core/packages/rrrrr_finger)
+[0.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lunet/wj0011/ros2_ws/src/simple_robot_moveit_config' with build type 'ament_cmake'
+[0.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lunet/wj0011/ros2_ws/src/simple_robot_moveit_config'
+[0.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrrrr_finger_pkg)
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg' for CMake module files
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_finger_pkg
+[0.553s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg' for CMake config files
+[0.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrrrr_finger_pkg', 'cmake_prefix_path')
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/hook/cmake_prefix_path.ps1'
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/hook/cmake_prefix_path.dsv'
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/hook/cmake_prefix_path.sh'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/bin'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/lib/pkgconfig/rrrrr_finger_pkg.pc'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/lib/python3.10/site-packages'
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/bin'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.ps1'
+[0.566s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.dsv'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.sh'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.bash'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.zsh'
+[0.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/colcon-core/packages/rrrrr_finger_pkg)
+[0.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrrrr_finger_pkg)
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg' for CMake module files
+[0.577s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg' for CMake config files
+[0.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrrrr_finger_pkg', 'cmake_prefix_path')
+[0.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/hook/cmake_prefix_path.ps1'
+[0.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/hook/cmake_prefix_path.dsv'
+[0.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/hook/cmake_prefix_path.sh'
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/bin'
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/lib/pkgconfig/rrrrr_finger_pkg.pc'
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/lib/python3.10/site-packages'
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/bin'
+[0.586s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.sh'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.bash'
+[0.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/rrrrr_finger_pkg/package.zsh'
+[0.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/rrrrr_finger_pkg/share/colcon-core/packages/rrrrr_finger_pkg)
+[0.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrr_pkg)
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg' for CMake module files
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg' for CMake config files
+[0.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrr_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrr_pkg
+[0.631s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrr_pkg', 'cmake_prefix_path')
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/hook/cmake_prefix_path.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/hook/cmake_prefix_path.dsv'
+[0.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/hook/cmake_prefix_path.sh'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/bin'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/lib/pkgconfig/rrr_pkg.pc'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/lib/python3.10/site-packages'
+[0.638s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/bin'
+[0.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.ps1'
+[0.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.sh'
+[0.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.bash'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.zsh'
+[0.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/colcon-core/packages/rrr_pkg)
+[0.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrr_pkg)
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg' for CMake module files
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg' for CMake config files
+[0.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrr_pkg', 'cmake_prefix_path')
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/hook/cmake_prefix_path.ps1'
+[0.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/hook/cmake_prefix_path.dsv'
+[0.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/hook/cmake_prefix_path.sh'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/bin'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/lib/pkgconfig/rrr_pkg.pc'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/lib/python3.10/site-packages'
+[0.659s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/bin'
+[0.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.sh'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.bash'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/rrr_pkg/package.zsh'
+[0.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/rrr_pkg/share/colcon-core/packages/rrr_pkg)
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/hello_moveit' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/hello_moveit -- -j32 -l32
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/hello_moveit': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/hello_moveit
+[0.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrrrr_pkg)
+[0.753s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg' for CMake module files
+[0.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/rrrrr_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/rrrrr_pkg
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg' for CMake config files
+[0.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrrrr_pkg', 'cmake_prefix_path')
+[0.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/hook/cmake_prefix_path.ps1'
+[0.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/hook/cmake_prefix_path.dsv'
+[0.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/hook/cmake_prefix_path.sh'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/bin'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/lib/pkgconfig/rrrrr_pkg.pc'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/lib/python3.10/site-packages'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/bin'
+[0.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.ps1'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.bash'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.zsh'
+[0.776s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/colcon-core/packages/rrrrr_pkg)
+[0.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrrrr_pkg)
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg' for CMake module files
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg' for CMake config files
+[0.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrrrr_pkg', 'cmake_prefix_path')
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/hook/cmake_prefix_path.ps1'
+[0.785s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/hook/cmake_prefix_path.dsv'
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/hook/cmake_prefix_path.sh'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/bin'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/lib/pkgconfig/rrrrr_pkg.pc'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/lib/python3.10/site-packages'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/bin'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.dsv'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.sh'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.bash'
+[0.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/rrrrr_pkg/package.zsh'
+[0.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/rrrrr_pkg/share/colcon-core/packages/rrrrr_pkg)
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lunet/wj0011/ros2_ws/src/simple_robot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples -- -j32 -l32
+[0.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples
+[0.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_moveit)
+[0.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/hello_moveit' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/hello_moveit
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit' for CMake module files
+[0.874s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit' for CMake config files
+[0.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[0.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[0.885s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/lib'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/bin'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/lib/python3.10/site-packages'
+[0.886s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/bin'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.dsv'
+[0.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.sh'
+[0.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.bash'
+[0.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.zsh'
+[0.896s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[0.898s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_moveit)
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit' for CMake module files
+[0.900s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit' for CMake config files
+[0.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[0.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/lib'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/bin'
+[0.910s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/lib/python3.10/site-packages'
+[0.911s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/hello_moveit/bin'
+[0.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.ps1'
+[0.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.dsv'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.sh'
+[0.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.bash'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/hello_moveit/package.zsh'
+[0.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[0.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_fundamentals_examples)
+[0.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/ros2_fundamentals_examples
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples' for CMake module files
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples' for CMake config files
+[0.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fundamentals_examples', 'cmake_prefix_path')
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.dsv'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.sh'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/lib'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/bin'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/lib/pkgconfig/ros2_fundamentals_examples.pc'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/lib/python3.10/site-packages'
+[0.974s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/bin'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.ps1'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.sh'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.bash'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.zsh'
+[0.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/colcon-core/packages/ros2_fundamentals_examples)
+[0.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_fundamentals_examples)
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples' for CMake module files
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples' for CMake config files
+[0.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_fundamentals_examples', 'cmake_prefix_path')
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.ps1'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/hook/cmake_prefix_path.sh'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/lib'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/bin'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/lib/pkgconfig/ros2_fundamentals_examples.pc'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/lib/python3.10/site-packages'
+[0.996s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/bin'
+[0.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.bash'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.zsh'
+[1.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/ros2_fundamentals_examples/share/colcon-core/packages/ros2_fundamentals_examples)
+[1.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lunet/wj0011/ros2_ws/src/simple_robot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config
+[1.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config -- -j32 -l32
+[2.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config -- -j32 -l32
+[2.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config
+[2.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_moveit_config)
+[2.230s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config' for CMake module files
+[2.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/wj0011/ros2_ws/build/simple_robot_moveit_config
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config' for CMake config files
+[2.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_moveit_config', 'cmake_prefix_path')
+[2.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/hook/cmake_prefix_path.sh'
+[2.247s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/bin'
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/lib/pkgconfig/simple_robot_moveit_config.pc'
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/lib/python3.10/site-packages'
+[2.248s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/bin'
+[2.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.ps1'
+[2.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.dsv'
+[2.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.sh'
+[2.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.bash'
+[2.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.zsh'
+[2.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/colcon-core/packages/simple_robot_moveit_config)
+[2.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_moveit_config)
+[2.261s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config' for CMake module files
+[2.263s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config' for CMake config files
+[2.268s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_moveit_config', 'cmake_prefix_path')
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/hook/cmake_prefix_path.ps1'
+[2.270s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/hook/cmake_prefix_path.dsv'
+[2.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/hook/cmake_prefix_path.sh'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/bin'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/lib/pkgconfig/simple_robot_moveit_config.pc'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/lib/python3.10/site-packages'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/bin'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.ps1'
+[2.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.dsv'
+[2.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.sh'
+[2.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.bash'
+[2.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.zsh'
+[2.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lunet/wj0011/ros2_ws/install/simple_robot_moveit_config/share/colcon-core/packages/simple_robot_moveit_config)
+[2.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.286s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.296s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.297s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.297s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.305s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.305s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunet/wj0011/ros2_ws/install/local_setup.ps1'
+[2.307s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lunet/wj0011/ros2_ws/install/_local_setup_util_ps1.py'
+[2.310s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunet/wj0011/ros2_ws/install/setup.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunet/wj0011/ros2_ws/install/local_setup.sh'
+[2.316s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lunet/wj0011/ros2_ws/install/_local_setup_util_sh.py'
+[2.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunet/wj0011/ros2_ws/install/setup.sh'
+[2.322s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunet/wj0011/ros2_ws/install/local_setup.bash'
+[2.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunet/wj0011/ros2_ws/install/setup.bash'
+[2.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lunet/wj0011/ros2_ws/install/local_setup.zsh'
+[2.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lunet/wj0011/ros2_ws/install/setup.zsh'
