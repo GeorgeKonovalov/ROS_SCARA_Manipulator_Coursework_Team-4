@@ -1,0 +1,46 @@
+ROS2 TASK 1 - FULL STARTUP GUIDE (FRESH PC)
+
+1.  Open Terminal CTRL + ALT + T
+
+2.  Disable Conda (VERY IMPORTANT) conda deactivate conda deactivate
+
+3.  Clean Python Environment unset PYTHONPATH unset PYTHONHOME
+
+4.  Load ROS (try one of these)
+
+source /opt/ros/humble/setup.bash OR source /opt/ros/iron/setup.bash
+
+Test: ros2
+
+5.  Go to Workspace cd ~/ros2_ws
+
+6.  Build the Project colcon build
+
+7.  Source Workspace source install/setup.bash
+
+8.  Install Python Dependencies (only first time) pip3 install pyautogui
+    pynput –user
+
+9.  Run Everything ros2 launch task1_pkg task1_launch.py
+
+10. Test System
+
+-   Move mouse → cursor moves
+-   Inside box → green
+-   Outside → red
+-   Press ‘l’ → purple + freeze
+-   Press ‘p’ → blue (only inside)
+-   Press ‘f’ → toggle smoothing
+
+COMMON ERRORS
+
+If “ros2: command not found”: source /opt/ros/humble/setup.bash
+
+If modules missing: pip3 install pyautogui pynput –user
+
+If wrong Python: which python3 (should be /usr/bin/python3)
+
+SHORT VERSION
+
+conda deactivate source /opt/ros/humble/setup.bash cd ~/ros2_ws colcon
+build source install/setup.bash ros2 launch task1_pkg task1_launch.py

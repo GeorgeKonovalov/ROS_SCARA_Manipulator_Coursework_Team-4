@@ -1,0 +1,100 @@
+ROS2 TASK 1 - FUNCTION TESTING GUIDE
+
+This guide explains how to test each feature of the system and what
+output to expect.
+
+1.  START THE SYSTEM
+
+Run: ros2 launch task1_pkg task1_launch.py
+
+A GUI window should open with: - A black background - A square (working
+area) - A small white dot (cursor)
+
+------------------------------------------------------------------------
+
+2.  MOUSE MOVEMENT TEST
+
+Action: Move your mouse around the screen.
+
+Expected: - The white dot follows your movement inside the GUI -
+Movement should be responsive
+
+------------------------------------------------------------------------
+
+3.  BOUNDARY TEST (INSIDE / OUTSIDE)
+
+Action: Move the cursor inside the square.
+
+Expected: - Square border turns GREEN
+
+Action: Move the cursor outside the square.
+
+Expected: - Square border turns RED
+
+------------------------------------------------------------------------
+
+4.  LOCK FUNCTION (KEY: l)
+
+Action: Press the ‘l’ key
+
+Expected: - Square turns PURPLE - Cursor stops moving (frozen) - System
+stays locked for 10 seconds - After 10 seconds, system unlocks
+automatically
+
+------------------------------------------------------------------------
+
+5.  PICKUP FUNCTION (KEY: p)
+
+Case 1: Cursor INSIDE the box
+
+Action: Move cursor inside the square and press ‘p’
+
+Expected: - Square turns BLUE - Cursor freezes for 10 seconds - After 10
+seconds, returns to normal
+
+Case 2: Cursor OUTSIDE the box
+
+Action: Move cursor outside the square and press ‘p’
+
+Expected: - No freeze occurs - Terminal prints: ERROR: Cursor outside
+box
+
+------------------------------------------------------------------------
+
+6.  FILTER TOGGLE (KEY: f)
+
+Action: Press ‘f’
+
+Expected: - System switches between RAW and FILTERED mode - Terminal
+prints: “Using FILTERED input” or “Using RAW input”
+
+Behaviour: - RAW mode → cursor follows mouse directly (fast and slightly
+jittery) - FILTERED mode → cursor moves smoother but with slight delay
+
+------------------------------------------------------------------------
+
+7.  FILTER EFFECT TEST
+
+Action: Move mouse quickly in circles or zig-zag patterns
+
+Expected: - RAW mode → sharp and fast movement - FILTERED mode →
+smoother and slower movement
+
+Optional: Check terminal output: RAW: (x, y) -> FILTERED: (x, y)
+
+------------------------------------------------------------------------
+
+8.  FULL SYSTEM CHECK
+
+Make sure all of the following work together: - Mouse movement updates
+cursor - Box changes colour correctly (red / green) - ‘l’ key locks
+system (purple) - ‘p’ works correctly (blue or error) - ‘f’ switches
+filtering modes
+
+------------------------------------------------------------------------
+
+9.  FINAL DEMO CHECKLIST
+
+Before presenting: - System launches with one command - GUI appears
+correctly - All keys respond correctly - Filtering visibly changes
+behaviour
