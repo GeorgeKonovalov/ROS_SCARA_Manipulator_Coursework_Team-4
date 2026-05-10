@@ -1,0 +1,36 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lunet/kk0171/ros2_ws/build/scara_pkg
+-- Install configuration: ""
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/launch
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/launch/robot.launch.py
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/urdf
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/urdf/robot.urdf
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/base_link.dae
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/link1.dae
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/link2.dae
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/link3.dae
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/hand.dae
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/finger.dae
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/package_run_dependencies/scara_pkg
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/parent_prefix_path/scara_pkg
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/path.sh
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/path.dsv
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.bash
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.sh
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.zsh
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.dsv
+-- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/package.dsv
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/packages/scara_pkg
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/cmake/scara_pkgConfig.cmake
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/cmake/scara_pkgConfig-version.cmake
+-- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/package.xml

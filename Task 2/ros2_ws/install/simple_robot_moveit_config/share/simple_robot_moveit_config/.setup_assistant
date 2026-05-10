@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: rrrrr_finger
+    relative_path: urdf/robot.urdf
+  srdf:
+    relative_path: config/simple_robot.srdf
+  package_settings:
+    author_name: Chow Yin Lai
+    author_email: c.lai@lboro.ac.uk
+    generated_timestamp: 1769160399

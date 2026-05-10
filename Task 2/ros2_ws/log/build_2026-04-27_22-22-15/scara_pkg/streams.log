@@ -1,0 +1,48 @@
+[0.031s] Invoking command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lunet/kk0171/ros2_ws/src/scara_pkg -DCMAKE_INSTALL_PREFIX=/home/lunet/kk0171/ros2_ws/install/scara_pkg
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.172s] -- The CXX compiler identification is GNU 11.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.351s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.363s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.526s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.716s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.838s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.845s] -- Added test 'lint_cmake' to check CMake code style
+[0.850s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.873s] -- Added test 'xmllint' to check XML markup files
+[0.898s] -- Configuring done
+[0.982s] -- Generating done
+[1.027s] -- Build files have been written to: /home/lunet/kk0171/ros2_ws/build/scara_pkg
+[1.031s] Invoked command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lunet/kk0171/ros2_ws/src/scara_pkg -DCMAKE_INSTALL_PREFIX=/home/lunet/kk0171/ros2_ws/install/scara_pkg
+[1.035s] Invoking command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/kk0171/ros2_ws/build/scara_pkg -- -j32 -l32
+[1.073s] Invoked command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/kk0171/ros2_ws/build/scara_pkg -- -j32 -l32
+[1.080s] Invoking command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/kk0171/ros2_ws/build/scara_pkg
+[1.087s] -- Install configuration: ""
+[1.088s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/launch
+[1.093s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/launch/robot.launch.py
+[1.098s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/urdf
+[1.102s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/urdf/robot.urdf
+[1.112s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/package_run_dependencies/scara_pkg
+[1.122s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/parent_prefix_path/scara_pkg
+[1.132s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/ament_prefix_path.sh
+[1.136s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/ament_prefix_path.dsv
+[1.142s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/path.sh
+[1.146s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/path.dsv
+[1.152s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.bash
+[1.158s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.sh
+[1.164s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.zsh
+[1.170s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.dsv
+[1.176s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/package.dsv
+[1.184s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/packages/scara_pkg
+[1.192s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/cmake/scara_pkgConfig.cmake
+[1.197s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/cmake/scara_pkgConfig-version.cmake
+[1.203s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/package.xml
+[1.246s] Invoked command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/kk0171/ros2_ws/build/scara_pkg

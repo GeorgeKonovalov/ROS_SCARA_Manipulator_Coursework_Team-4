@@ -1,0 +1,57 @@
+[0.073s] Invoking command in '/home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=/home/lunet/kk0171/ros2_ws/install/rrrrr_finger:/home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config:/opt/ros/humble /usr/bin/cmake /home/lunet/kk0171/ros2_ws/src/simple_robot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config
+[0.144s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.220s] -- Detecting C compiler ABI info
+[0.366s] -- Detecting C compiler ABI info - done
+[0.375s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.375s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.386s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.545s] -- Detecting CXX compile features - done
+[0.559s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.665s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.896s] -- Configuring done
+[0.972s] -- Generating done
+[1.015s] -- Build files have been written to: /home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config
+[1.018s] Invoked command in '/home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=/home/lunet/kk0171/ros2_ws/install/rrrrr_finger:/home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config:/opt/ros/humble /usr/bin/cmake /home/lunet/kk0171/ros2_ws/src/simple_robot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config
+[1.022s] Invoking command in '/home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=/home/lunet/kk0171/ros2_ws/install/rrrrr_finger:/home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config:/opt/ros/humble /usr/bin/cmake --build /home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config -- -j32 -l32
+[1.057s] Invoked command in '/home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=/home/lunet/kk0171/ros2_ws/install/rrrrr_finger:/home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config:/opt/ros/humble /usr/bin/cmake --build /home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config -- -j32 -l32
+[1.062s] Invoking command in '/home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=/home/lunet/kk0171/ros2_ws/install/rrrrr_finger:/home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config:/opt/ros/humble /usr/bin/cmake --install /home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config
+[1.068s] -- Install configuration: ""
+[1.074s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/simple_robot_moveit_config
+[1.084s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/simple_robot_moveit_config
+[1.093s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/environment/ament_prefix_path.sh
+[1.097s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/environment/ament_prefix_path.dsv
+[1.103s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/environment/path.sh
+[1.107s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/environment/path.dsv
+[1.112s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/local_setup.bash
+[1.117s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/local_setup.sh
+[1.123s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/local_setup.zsh
+[1.129s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/local_setup.dsv
+[1.135s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.dsv
+[1.143s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/ament_index/resource_index/packages/simple_robot_moveit_config
+[1.150s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/cmake/simple_robot_moveit_configConfig.cmake
+[1.156s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/cmake/simple_robot_moveit_configConfig-version.cmake
+[1.162s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/package.xml
+[1.166s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch
+[1.170s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch/demo.launch.py
+[1.175s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch/moveit_rviz.launch.py
+[1.180s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch/move_group.launch.py
+[1.185s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch/rsp.launch.py
+[1.190s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch/setup_assistant.launch.py
+[1.196s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch/spawn_controllers.launch.py
+[1.201s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.206s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/launch/warehouse_db.launch.py
+[1.211s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/config
+[1.215s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/config/joint_limits.yaml
+[1.220s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/config/kinematics.yaml
+[1.225s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/config/moveit.rviz
+[1.231s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/config/moveit_controllers.yaml
+[1.236s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/config/pilz_cartesian_limits.yaml
+[1.242s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/config/ros2_controllers.yaml
+[1.247s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/config/simple_robot.srdf
+[1.252s] -- Installing: /home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config/share/simple_robot_moveit_config/.setup_assistant
+[1.259s] Invoked command in '/home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=/home/lunet/kk0171/ros2_ws/install/rrrrr_finger:/home/lunet/kk0171/ros2_ws/install/simple_robot_moveit_config:/opt/ros/humble /usr/bin/cmake --install /home/lunet/kk0171/ros2_ws/build/simple_robot_moveit_config

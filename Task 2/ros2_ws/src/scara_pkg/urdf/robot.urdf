@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<robot name="scara_robot">
+
+  <!-- ============ World + fixed base ============ -->
+  <link name="world"/>
+  <joint name="fixed" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <!-- ============ base_link: vertical column, length 0.5 ============ -->
+  <link name="base_link">
+    <visual>
+      <geometry><mesh filename="package://scara_pkg/meshes/base_link.dae"/></geometry>
+      <origin xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry><cylinder length="0.5" radius="0.05"/></geometry>
+      <origin xyz="0 0 0.25"/>
+    </collision>
+  </link>
+
+  <!-- ============ joint_1 (R) — base rotation, vertical axis ============ -->
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0.5"/>            <!-- top of column -->
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="2.0" lower="-3.14" upper="3.14"/>
+  </joint>
+
+  <!-- ============ link1: horizontal arm, length 0.4 ============ -->
+  <link name="link1">
+    <visual>
+      <geometry><mesh filename="package://scara_pkg/meshes/link1.dae"/></geometry>
+      <origin xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry><box size="0.4 0.1 0.1"/></geometry>
+      <origin xyz="0.2 0 0"/>
+    </collision>
+  </link>
+
+  <!-- ============ joint_2 (R) — elbow, vertical axis ============
+       NOTE: NO rpy attribute on origin. This is the SCARA difference
+       from Week 4's robot, which had rpy="1.57079633 0 0" making the
+       elbow swing in a vertical plane. We want horizontal. -->
+  <joint name="joint_2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0.4 0 0"/>             <!-- end of link1 -->
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="2.0" lower="-3.14" upper="3.14"/>
+  </joint>
+
+  <!-- ============ link2: horizontal arm, length 0.3 ============ -->
+  <link name="link2">
+    <visual>
+      <geometry><mesh filename="package://scara_pkg/meshes/link2.dae"/></geometry>
+      <origin xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry><box size="0.3 0.1 0.1"/></geometry>
+      <origin xyz="0.15 0 0"/>
+    </collision>
+  </link>
+
+  <!-- ============ joint_3 (P) — vertical prismatic, going DOWN ============
+       rpy="3.14159 0 0" rotates the joint frame 180° about x so its
+       z-axis points down. The axis is then 0 0 1 in this rotated frame,
+       i.e. downward in world. Positive joint values therefore extend
+       the wrist downward, matching the arrow in the brief.
+       Stroke: 0.2 (retracted) to 0.4 (fully extended). -->
+  <joint name="joint_3" type="prismatic">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0.3 0 0" rpy="3.14159 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="0.5" lower="0.2" upper="0.4"/>
+  </joint>
+
+  <!-- ============ link3: short shaft / wrist mount ============
+       In link3's frame, +z points down (because joint_3 flipped it). -->
+  <link name="link3">
+    <visual>
+      <geometry><mesh filename="package://scara_pkg/meshes/link3.dae"/></geometry>
+      <origin xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry><cylinder length="0.1" radius="0.03"/></geometry>
+      <origin xyz="0 0 0.05"/>
+    </collision>
+  </link>
+
+  <!-- ============ joint_4 (R) — wrist roll ============
+       Inherits link3's flipped frame. Its z-axis points down,
+       which is still vertical, so this rotates the gripper about
+       the world-vertical axis. -->
+  <joint name="joint_4" type="revolute">
+    <parent link="link3"/>
+    <child link="hand"/>
+    <origin xyz="0 0 -0.05"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="2.0" lower="-3.14" upper="3.14"/>
+  </joint>
+
+  <!-- ============ hand + fingers ============
+       In hand frame, +z points down (gripper hangs below joint_4).
+       Fingers slide along hand's x-axis (perpendicular to z),
+       parting horizontally to grip a cube placed below. -->
+  <link name="hand">
+    <visual>
+      <geometry><mesh filename="package://scara_pkg/meshes/hand.dae"/></geometry>
+      <origin xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry><box size="0.1 0.1 0.05"/></geometry>
+      <origin xyz="0 0 0.025"/>
+    </collision>
+  </link>
+
+  <!-- finger1: slides along +x. At joint=0, inner edge of finger1
+       sits at hand_x=0. At joint=0.11, gap is 0.22 — meets the
+       brief's "≥ 0.2 when fully open" requirement. -->
+  <joint name="finger1_joint" type="prismatic">
+    <parent link="hand"/>
+    <child link="finger1"/>
+    <origin xyz="0 0 0.05" rpy="0 1.57079633 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="0.5" lower="0.0" upper="0.11"/>
+</joint>
+  <link name="finger1">
+    <visual>
+      <geometry><mesh filename="package://scara_pkg/meshes/finger.dae"/></geometry>
+      <origin xyz="0 0 0" rpy="0 0 3.14159"/>
+    </visual>
+    <collision>
+      <geometry><box size="0.02 0.05 0.1"/></geometry>
+      <origin xyz="0.01 0 0.05"/>
+    </collision>
+  </link>
+
+  <!-- finger2: mirrored along -x. -->
+  <joint name="finger2_joint" type="prismatic">
+    <parent link="hand"/>
+    <child link="finger2"/>
+    <origin xyz="0 0 0.05" rpy="0 -1.57079633 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="300" velocity="0.5" lower="0.0" upper="0.11"/>
+</joint>
+  <link name="finger2">
+    <visual>
+      <geometry><mesh filename="package://scara_pkg/meshes/finger.dae"/></geometry>
+      <origin xyz="0 0 0"/>
+    </visual>
+    <collision>
+      <geometry><box size="0.02 0.05 0.1"/></geometry>
+      <origin xyz="-0.01 0 0.05"/>
+    </collision>
+  </link>
+
+</robot>

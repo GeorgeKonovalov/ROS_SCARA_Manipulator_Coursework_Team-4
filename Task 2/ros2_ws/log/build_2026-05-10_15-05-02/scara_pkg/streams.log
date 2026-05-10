@@ -1,0 +1,31 @@
+[0.026s] Invoking command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/kk0171/ros2_ws/build/scara_pkg -- -j32 -l32
+[0.071s] Invoked command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lunet/kk0171/ros2_ws/build/scara_pkg -- -j32 -l32
+[0.077s] Invoking command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/kk0171/ros2_ws/build/scara_pkg
+[0.083s] -- Install configuration: ""
+[0.084s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/launch
+[0.086s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/launch/robot.launch.py
+[0.086s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/urdf
+[0.088s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/urdf/robot.urdf
+[0.089s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes
+[0.091s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/base_link.dae
+[0.092s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/finger.dae
+[0.092s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/link3.dae
+[0.093s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/hand.dae
+[0.094s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/link1.dae
+[0.098s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/meshes/link2.dae
+[0.104s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/package_run_dependencies/scara_pkg
+[0.105s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/parent_prefix_path/scara_pkg
+[0.106s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/ament_prefix_path.sh
+[0.107s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/ament_prefix_path.dsv
+[0.108s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/path.sh
+[0.109s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/environment/path.dsv
+[0.110s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.bash
+[0.110s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.sh
+[0.111s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.zsh
+[0.112s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/local_setup.dsv
+[0.113s] -- Installing: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/package.dsv
+[0.119s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/ament_index/resource_index/packages/scara_pkg
+[0.120s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/cmake/scara_pkgConfig.cmake
+[0.121s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/cmake/scara_pkgConfig-version.cmake
+[0.122s] -- Up-to-date: /home/lunet/kk0171/ros2_ws/install/scara_pkg/share/scara_pkg/package.xml
+[0.202s] Invoked command in '/home/lunet/kk0171/ros2_ws/build/scara_pkg' returned '0': ANSYSLMD_LICENSE_FILE=1055@ansys.lboro.ac.uk CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lunet/kk0171/ros2_ws/build/scara_pkg
